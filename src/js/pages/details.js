@@ -23,15 +23,12 @@ export function initDetails(params) {
         <div id="members">
           ${memberImages}
         </div>
-        ${
-          //  <h4>VISION</h4>
-          //   <p> d[0].vision}</p>
-          //      <br/>
-          //  <h4>MISSION</h4>
-          //  <p>${d[0].mission}</p>
-          //      <br/>
-          ""
-        }
+           <h4>VISION</h4>
+            <p> d[0].vision}</p>
+               <br/>
+           <h4>MISSION</h4>
+           <p>${d[0].mission}</p>
+               <br/>
       </article>
     </div>
   `;
