@@ -11,16 +11,20 @@
   background-color: white;
   padding: 1rem;
   border-radius: 1rem;
-  align-self: flex-start;
+  align-self: stretch;
   width: 30%;
   min-width: 320px;
   max-width: 480px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   /* flex-grow: 1; */
 }
 
 #teasers #video-wrapper {
   position: relative;
   height: min-content;
+  margin: auto 0;
 }
 
 #teasers picture {

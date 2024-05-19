@@ -19,16 +19,25 @@ export function initDetails(params) {
         <source src=${URL.teasers}${d[0].teasers[0]} type="video/mp4">
       </video>
       <article>
+        <h4>VISION</h4>
+          <p> ${d[0].vision}</p>
+              <br/>
+          <h4>MISSION</h4>
+          <p>${d[0].mission}</p>
+              <br/>
         <h4>MEMBERS</h4>
         <div id="members">
           ${memberImages}
         </div>
-           <h4>VISION</h4>
-            <p> d[0].vision}</p>
-               <br/>
-           <h4>MISSION</h4>
-           <p>${d[0].mission}</p>
-               <br/>
+        ${
+          //  <h4>VISION</h4>
+          //   <p> d[0].vision}</p>
+          //      <br/>
+          //  <h4>MISSION</h4>
+          //  <p>${d[0].mission}</p>
+          //      <br/>
+          ""
+        }
       </article>
     </div>
   `;

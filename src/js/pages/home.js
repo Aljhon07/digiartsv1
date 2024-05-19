@@ -14,9 +14,9 @@ export function initHome() {
             as digital art.
           </p>
           <button style="--i: 2;" class="get-started primary-btn">
-            <a href="#"></a>
+            <a href="#/gallery">Get Started</a>
             
-            Get Started
+     
             </button>
         </article>
         <!-- Possible Additional Info / Image at the right side --> 

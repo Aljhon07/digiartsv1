@@ -10,8 +10,15 @@
   border-radius: 1rem;
   padding: 0.5rem;
   background: var(--secondary);
+  display: flex;
+  flex-direction: column;
 }
 
+.logo-card #video-container {
+  flex-shrink: 1;
+  align-self: center;
+  margin: auto 0;
+}
 .logo-card img,
 .logo-card video {
   border-top-right-radius: 1rem;

@@ -14,7 +14,8 @@ function render() {
   const { baseParams, params } = getURL();
   // const prevContent = root.innerHTML;
   root.innerHTML = "";
-  // document.body.style.backgroundImage = "";
+  document.body.style.backgroundImage =
+    "url(/src/public/assets/gallery_bg.png)";
 
   $("#menu").classList.remove("show-menu");
 
