@@ -1,3 +1,6 @@
+import { URL, ourTeamImg } from "../../../data.js";
+import { initMembers } from "../components/members.js";
+
 export function initAbout() {
   const about = `
     <main id="about">
@@ -26,7 +29,16 @@ export function initAbout() {
           </article>
         </div>
       </section>
-      <h1>OUR TEAM</h1>
+      <section id="our-team">
+            <h1>OUR TEAM</h1>
+            <div id="members">
+              ${ourTeamImg
+                .map((member) => {
+                  return initMembers(URL.ourTeam + member.img, member.name);
+                })
+                .join("")}
+            </div>
+        </section>
     </main>
 `;
   return about;
