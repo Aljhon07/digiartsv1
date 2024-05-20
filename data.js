@@ -7,16 +7,36 @@ export const URL = {
 
 export const ourTeamImg = [
   {
-    name: "VENZON, Adriane",
-    img: "venzon.jpg",
-  },
-  {
     name: "CIPRIANO, Aljhon S.",
     img: "cipriano.jpg",
   },
   {
-    name: "Salazar, Cynel S.",
+    name: "GADE, Jan Vincent C.",
+    img: "gade.jpg",
+  },
+  {
+    name: "MENDEZ, Jayrald Marcus E.",
+    img: "mendez1.jpg",
+  },
+  {
+    name: "Nueno, Archie Jenzel D.",
+    img: "nueno.jpg",
+  },
+  {
+    name: "Salazar, Cynel Angelo D.",
     img: "salazar.jpg",
+  },
+  {
+    name: "RIVERA, Jean Railey F.",
+    img: "rivera.jpg",
+  },
+  {
+    name: "VENZON, Adriane Paul F.",
+    img: "venzon.jpg",
+  },
+  {
+    name: "VITO CRUZ, Aira Veronica D.",
+    img: "vito_cruz.jpg",
   },
 ];
 
