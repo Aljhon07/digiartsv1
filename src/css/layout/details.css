@@ -27,6 +27,7 @@
   padding: 3rem;
   overflow-y: scroll;
   position: relative;
+  text-align: center;
 }
 
 #company-details video {
@@ -45,14 +46,16 @@
   top: 0;
   margin-left: auto;
 }
-
 #company-details #content-wrapper {
   display: flex;
 }
 
+#company-details article h4 {
+  text-align: center;
+}
 #company-details article {
   width: 60%;
-  text-align: center;
+  text-align: justify;
   margin-top: 1rem;
 }
 
