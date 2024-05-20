@@ -31,7 +31,7 @@ function render() {
       $(".main-content picture img").src = "/src/public/assets/background.jpg";
       break;
 
-    case "gallery":
+    case "companies":
       const [gallery, galleryCB] = initGallery();
       root.innerHTML = gallery;
 
