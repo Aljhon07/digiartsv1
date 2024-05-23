@@ -3,6 +3,7 @@ header {
   /* background: rgb(var(--primaryRGB), 0.7); */
   transform: translateX(-50%);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   position: fixed;
   top: 0;
   left: 50%;
@@ -104,6 +105,8 @@ a.nav-links.active::before {
     margin-top: 5.9rem;
     /* background: rgb(var(--primaryRGB), 0.7); */
     backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
     padding: 1rem 0;
     width: var(--max-screen);
     position: absolute;
